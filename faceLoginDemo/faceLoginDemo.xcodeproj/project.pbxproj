@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F58A90891FA1CA1700812ADE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F58A90881FA1CA1700812ADE /* AppDelegate.m */; };
+		F58A908C1FA1CA1700812ADE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58A908B1FA1CA1700812ADE /* ViewController.m */; };
+		F58A908F1FA1CA1800812ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58A908D1FA1CA1800812ADE /* Main.storyboard */; };
+		F58A90911FA1CA1800812ADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58A90901FA1CA1800812ADE /* Assets.xcassets */; };
+		F58A90941FA1CA1800812ADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58A90921FA1CA1800812ADE /* LaunchScreen.storyboard */; };
+		F58A90971FA1CA1800812ADE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58A90961FA1CA1800812ADE /* main.m */; };
+		F58A90A11FA1CA1800812ADE /* faceLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F58A90A01FA1CA1800812ADE /* faceLoginDemoTests.m */; };
+		F58A90AC1FA1CA1800812ADE /* faceLoginDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F58A90AB1FA1CA1800812ADE /* faceLoginDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F58A909D1FA1CA1800812ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58A907C1FA1CA1700812ADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F58A90831FA1CA1700812ADE;
+			remoteInfo = faceLoginDemo;
+		};
+		F58A90A81FA1CA1800812ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58A907C1FA1CA1700812ADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F58A90831FA1CA1700812ADE;
+			remoteInfo = faceLoginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F58A90841FA1CA1700812ADE /* faceLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faceLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58A90871FA1CA1700812ADE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F58A90881FA1CA1700812ADE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F58A908A1FA1CA1700812ADE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F58A908B1FA1CA1700812ADE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F58A908E1FA1CA1800812ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F58A90901FA1CA1800812ADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F58A90931FA1CA1800812ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F58A90951FA1CA1800812ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58A90961FA1CA1800812ADE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F58A909C1FA1CA1800812ADE /* faceLoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = faceLoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58A90A01FA1CA1800812ADE /* faceLoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = faceLoginDemoTests.m; sourceTree = "<group>"; };
+		F58A90A21FA1CA1800812ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58A90A71FA1CA1800812ADE /* faceLoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = faceLoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58A90AB1FA1CA1800812ADE /* faceLoginDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = faceLoginDemoUITests.m; sourceTree = "<group>"; };
+		F58A90AD1FA1CA1800812ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F58A90811FA1CA1700812ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58A90991FA1CA1800812ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58A90A41FA1CA1800812ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F58A907B1FA1CA1700812ADE = {
+			isa = PBXGroup;
+			children = (
+				F58A90861FA1CA1700812ADE /* faceLoginDemo */,
+				F58A909F1FA1CA1800812ADE /* faceLoginDemoTests */,
+				F58A90AA1FA1CA1800812ADE /* faceLoginDemoUITests */,
+				F58A90851FA1CA1700812ADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F58A90851FA1CA1700812ADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F58A90841FA1CA1700812ADE /* faceLoginDemo.app */,
+				F58A909C1FA1CA1800812ADE /* faceLoginDemoTests.xctest */,
+				F58A90A71FA1CA1800812ADE /* faceLoginDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F58A90861FA1CA1700812ADE /* faceLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F58A90871FA1CA1700812ADE /* AppDelegate.h */,
+				F58A90881FA1CA1700812ADE /* AppDelegate.m */,
+				F58A908A1FA1CA1700812ADE /* ViewController.h */,
+				F58A908B1FA1CA1700812ADE /* ViewController.m */,
+				F58A908D1FA1CA1800812ADE /* Main.storyboard */,
+				F58A90901FA1CA1800812ADE /* Assets.xcassets */,
+				F58A90921FA1CA1800812ADE /* LaunchScreen.storyboard */,
+				F58A90951FA1CA1800812ADE /* Info.plist */,
+				F58A90961FA1CA1800812ADE /* main.m */,
+			);
+			path = faceLoginDemo;
+			sourceTree = "<group>";
+		};
+		F58A909F1FA1CA1800812ADE /* faceLoginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F58A90A01FA1CA1800812ADE /* faceLoginDemoTests.m */,
+				F58A90A21FA1CA1800812ADE /* Info.plist */,
+			);
+			path = faceLoginDemoTests;
+			sourceTree = "<group>";
+		};
+		F58A90AA1FA1CA1800812ADE /* faceLoginDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F58A90AB1FA1CA1800812ADE /* faceLoginDemoUITests.m */,
+				F58A90AD1FA1CA1800812ADE /* Info.plist */,
+			);
+			path = faceLoginDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F58A90831FA1CA1700812ADE /* faceLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58A90B01FA1CA1800812ADE /* Build configuration list for PBXNativeTarget "faceLoginDemo" */;
+			buildPhases = (
+				F58A90801FA1CA1700812ADE /* Sources */,
+				F58A90811FA1CA1700812ADE /* Frameworks */,
+				F58A90821FA1CA1700812ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = faceLoginDemo;
+			productName = faceLoginDemo;
+			productReference = F58A90841FA1CA1700812ADE /* faceLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F58A909B1FA1CA1800812ADE /* faceLoginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58A90B31FA1CA1800812ADE /* Build configuration list for PBXNativeTarget "faceLoginDemoTests" */;
+			buildPhases = (
+				F58A90981FA1CA1800812ADE /* Sources */,
+				F58A90991FA1CA1800812ADE /* Frameworks */,
+				F58A909A1FA1CA1800812ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F58A909E1FA1CA1800812ADE /* PBXTargetDependency */,
+			);
+			name = faceLoginDemoTests;
+			productName = faceLoginDemoTests;
+			productReference = F58A909C1FA1CA1800812ADE /* faceLoginDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F58A90A61FA1CA1800812ADE /* faceLoginDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58A90B61FA1CA1800812ADE /* Build configuration list for PBXNativeTarget "faceLoginDemoUITests" */;
+			buildPhases = (
+				F58A90A31FA1CA1800812ADE /* Sources */,
+				F58A90A41FA1CA1800812ADE /* Frameworks */,
+				F58A90A51FA1CA1800812ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F58A90A91FA1CA1800812ADE /* PBXTargetDependency */,
+			);
+			name = faceLoginDemoUITests;
+			productName = faceLoginDemoUITests;
+			productReference = F58A90A71FA1CA1800812ADE /* faceLoginDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F58A907C1FA1CA1700812ADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = hwm;
+				TargetAttributes = {
+					F58A90831FA1CA1700812ADE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F58A909B1FA1CA1800812ADE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F58A90831FA1CA1700812ADE;
+					};
+					F58A90A61FA1CA1800812ADE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F58A90831FA1CA1700812ADE;
+					};
+				};
+			};
+			buildConfigurationList = F58A907F1FA1CA1700812ADE /* Build configuration list for PBXProject "faceLoginDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F58A907B1FA1CA1700812ADE;
+			productRefGroup = F58A90851FA1CA1700812ADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F58A90831FA1CA1700812ADE /* faceLoginDemo */,
+				F58A909B1FA1CA1800812ADE /* faceLoginDemoTests */,
+				F58A90A61FA1CA1800812ADE /* faceLoginDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F58A90821FA1CA1700812ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58A90941FA1CA1800812ADE /* LaunchScreen.storyboard in Resources */,
+				F58A90911FA1CA1800812ADE /* Assets.xcassets in Resources */,
+				F58A908F1FA1CA1800812ADE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58A909A1FA1CA1800812ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58A90A51FA1CA1800812ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F58A90801FA1CA1700812ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58A908C1FA1CA1700812ADE /* ViewController.m in Sources */,
+				F58A90971FA1CA1800812ADE /* main.m in Sources */,
+				F58A90891FA1CA1700812ADE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58A90981FA1CA1800812ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58A90A11FA1CA1800812ADE /* faceLoginDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58A90A31FA1CA1800812ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58A90AC1FA1CA1800812ADE /* faceLoginDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F58A909E1FA1CA1800812ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F58A90831FA1CA1700812ADE /* faceLoginDemo */;
+			targetProxy = F58A909D1FA1CA1800812ADE /* PBXContainerItemProxy */;
+		};
+		F58A90A91FA1CA1800812ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F58A90831FA1CA1700812ADE /* faceLoginDemo */;
+			targetProxy = F58A90A81FA1CA1800812ADE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F58A908D1FA1CA1800812ADE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58A908E1FA1CA1800812ADE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F58A90921FA1CA1800812ADE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58A90931FA1CA1800812ADE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F58A90AE1FA1CA1800812ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F58A90AF1FA1CA1800812ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F58A90B11FA1CA1800812ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R494QZ4GU8;
+				INFOPLIST_FILE = faceLoginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwm.faceLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F58A90B21FA1CA1800812ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R494QZ4GU8;
+				INFOPLIST_FILE = faceLoginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwm.faceLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F58A90B41FA1CA1800812ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R494QZ4GU8;
+				INFOPLIST_FILE = faceLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwm.faceLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/faceLoginDemo.app/faceLoginDemo";
+			};
+			name = Debug;
+		};
+		F58A90B51FA1CA1800812ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R494QZ4GU8;
+				INFOPLIST_FILE = faceLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwm.faceLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/faceLoginDemo.app/faceLoginDemo";
+			};
+			name = Release;
+		};
+		F58A90B71FA1CA1800812ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R494QZ4GU8;
+				INFOPLIST_FILE = faceLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwm.faceLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = faceLoginDemo;
+			};
+			name = Debug;
+		};
+		F58A90B81FA1CA1800812ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R494QZ4GU8;
+				INFOPLIST_FILE = faceLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwm.faceLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = faceLoginDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F58A907F1FA1CA1700812ADE /* Build configuration list for PBXProject "faceLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58A90AE1FA1CA1800812ADE /* Debug */,
+				F58A90AF1FA1CA1800812ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58A90B01FA1CA1800812ADE /* Build configuration list for PBXNativeTarget "faceLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58A90B11FA1CA1800812ADE /* Debug */,
+				F58A90B21FA1CA1800812ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58A90B31FA1CA1800812ADE /* Build configuration list for PBXNativeTarget "faceLoginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58A90B41FA1CA1800812ADE /* Debug */,
+				F58A90B51FA1CA1800812ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58A90B61FA1CA1800812ADE /* Build configuration list for PBXNativeTarget "faceLoginDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58A90B71FA1CA1800812ADE /* Debug */,
+				F58A90B81FA1CA1800812ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F58A907C1FA1CA1700812ADE /* Project object */;
+}
