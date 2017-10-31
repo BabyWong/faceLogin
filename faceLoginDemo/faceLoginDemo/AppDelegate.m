@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SIDHeader.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // -------  初始化SDK --------
+    // ------ 请登录官网 创建应用, 获取相应的ID和AppSecret -----
+    [SuperID registerAppWithAppID:@"65e34c9d83f2fc4f630dc8ff" withAppSecret:@"887e79c42005be438a9bf1cb"];
+    //开启一登SDK的调试模式，开发者在Release时，将该模式设置为NO.
+    [SuperID setDebugMode:YES];
+    //设置一登 SDK 的语言模式，默认为自动模式。
+    [SuperID setLanguageMode:SIDAutoMode];
     return YES;
 }
 
